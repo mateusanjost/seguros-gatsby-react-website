@@ -10,7 +10,7 @@ const MobileMenu = props => (
             {link.name}
           </Link>
           <span className="indent-0"></span>
-          {link.items.map(sublink =>
+          {/* {link.items.map(sublink =>
             sublink.items ? (
               <React.Fragment key={sublink.name}>
                 <Link
@@ -43,7 +43,7 @@ const MobileMenu = props => (
                 </Link>
               </div>
             )
-          )}
+          )} */}
         </React.Fragment>
       ) : (
         <div key={link.name}>
