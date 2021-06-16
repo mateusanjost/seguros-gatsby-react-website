@@ -118,6 +118,7 @@ class Header extends React.Component {
             <nav>
               <ul style={{ display: 'flex', flex: 1 }}>
                 {menuLinks.map(link =>
+                  
                   link.items ? (
                     <React.Fragment key={link.name}>
                       <li key={link.name}>
@@ -145,7 +146,7 @@ class Header extends React.Component {
                           onMouseEnter={this.enterMenu}
                           onMouseLeave={this.leaveMenu}
                         >
-                          {link.items.map(sublink =>
+                          {/* {link.items.map(sublink =>
                             sublink.items ? (
                               <React.Fragment key={sublink.name}>
                                 <li
@@ -219,7 +220,7 @@ class Header extends React.Component {
                                 <Link to={sublink.link}>{sublink.name}</Link>
                               </li>
                             )
-                          )}
+                          )} */}
                         </ul>
                       </li>
                     </React.Fragment>

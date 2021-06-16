@@ -17,7 +17,7 @@ const Five = props => (
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Your Email Address"
+                placeholder="Seu endereço de e-mail"
               />
             </div>
             <div className="col-4 col-12-xsmall">

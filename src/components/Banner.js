@@ -1,16 +1,16 @@
 import React from 'react'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/tudo-sobre-seguros-300x268.png'
 import { Link as ScrollLink } from 'react-scroll'
 
 const Banner = props => (
   <section id="banner">
     <div className="content">
       <header>
-        <h2>The future has landed</h2>
+        <h2>Lorem Ipsum </h2>
         <p>
-          And there are no hoverboards or flying cars.
+Lorem ipsum lorem ipsum dolor sit amet nullam
           <br />
-          Just apps. Lots of mother flipping apps.
+         lorem ipsum dolor sit am dolor amet ipsum dolor sit 
         </p>
       </header>
       <span className="image">

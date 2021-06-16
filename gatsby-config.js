@@ -1,17 +1,18 @@
 module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
-    title: 'Landed',
+    title: 'Mar del Plata',
     author: 'vasrush',
-    description: 'A Gatsby.js V2 Starter based on Landed by HTML5 UP',
+    description: 'gatsby-paranhos-mard-',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'INÍCIO',
         link: '/',
       },
       {
-        name: 'Layouts',
-        link: '#',
+        name: 'VIDA',
+        link: '/Vida',
+
         items: [
           {
             name: 'Left Sidebar',
@@ -50,11 +51,11 @@ module.exports = {
         ],
       },
       {
-        name: 'Elements',
-        link: '/elements',
+        name: 'CONTATO',
+        link: '#',
       },
       {
-        name: 'Sign Up',
+        name: 'Registrar-se',
         link: '#',
         cl: 'button primary',
       },

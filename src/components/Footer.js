@@ -35,13 +35,9 @@ const Footer = props => (
       </li>
     </ul>
     <ul className="copyright">
-      <li>&copy; Untitled. All rights reserved.</li>
-      <li>
-        Design: <a href="http://html5up.net">HTML5 UP</a>
-      </li>
-      <li>
-        Demo Images: <a href="https://unsplash.com">Unsplash</a>
-      </li>
+      <li className="paranhos" >&copy; <a href="https://agenciaparanhos.com.br/">Developer by <img src="https://agenciaparanhos.com.br/images/5471fcb2b4e27a0959ecd72ff15446a3.png"></img></a></li>
+
+     
     </ul>
   </footer>
 )

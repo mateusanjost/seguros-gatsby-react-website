@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+.box-cobertura{margin-top:2rem;padding:2rem 1rem!important;border-radius:15px;box-shadow:0 3px 10px -5px rgba(0,0,0,0.6);background-color:#f8f8f8}.box-cobertura .rounded-circle{background-color:transparent;width:90px;height:90px}.box-cobertura .rounded-circle .fa{font-size:60px;color:#3aaa35}.box-cobertura .rounded-circle .ico-cigarret{stroke:transparent;stroke-width:1px;fill:#999}.box-cobertura .rounded-circle .box-cobetura-selecionado{background-color:#efefef}.box-cobertura .box-separator{border:solid .5px #eaeaea;width:100%;margin:1.5rem 0}.box-cobertura h2{text-align:center;margin:0}.box-cobertura .crop-image rounded-circle .fa{color:#3aaa35}.box-cobertura>.row>.col-auto{display:none}@media(min-width:768px){.box-cobertura>.row>.col-auto{display:flex}}@media(min-width:768px){.box-cobertura>.row .text-center{padding-left:-60px}}.box-cobertura>.row>.col>.row>.col{padding-right:1rem}.box-cobertura>.row>.col>.row>.col-12{text-align:left}.box-cobertura>.row>.col>.row>.col-12>:first-child{margin-top:1.5rem}.box-cobertura>.row>.col>.row>.col-12 a[data-toggle]{display:block;margin-top:1rem}.pricebox-por-mes{position:absolute;bottom:0;right:0}
+/*#endregion*/
 
 /*
 	Landed by HTML5 UP
@@ -3584,6 +3586,8 @@ input, select, textarea {
 
 				#footer .copyright li a {
 					color: inherit;
+					display: flex;
+    align-items: center;
 				}
 
 /* XLarge */
